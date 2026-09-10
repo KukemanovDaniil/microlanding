@@ -86,6 +86,8 @@ body {
 
     cursor: pointer;
     transition: all 0.1s ease;
+    text-decoration: none;
+    outline: none;
 }
 
 .my-custom-button img {
@@ -98,4 +100,50 @@ body {
     background-color: #2c2e43;
     color: #ffffff;
     transform: scale(1.03);
+}
+
+/* FOR PHONES */
+
+@media (max-width: 600px) {
+    .profile-container {
+        width: 92%;           /* Карточка займет почти всю ширину экрана телефона */
+        padding: 30px 20px;   /* Уменьшаем гигантские отступы до аккуратных */
+        border-radius: 20px;
+    }
+
+    .profile-avatar {
+        width: 160px;         /* Уменьшаем аватарку, чтобы она смотрелась пропорционально */
+        height: 160px;
+        border: 6px solid #ffffff; /* Делаем белую рамку чуть тоньше */
+        margin-bottom: 15px;
+    }
+
+    .profile-container h1 {
+        font-size: 26px;      /* Уменьшаем шрифт Notable, чтобы имя влезло в экран */
+        line-height: 1.2;
+    }
+
+    .profile-container h2 {
+        font-size: 16px;      /* Слегка уменьшаем подпись */
+        margin-top: 5px;
+    }
+
+    .profile-container h3, 
+    .profile-container h4 {
+        font-size: 14px;
+    }
+
+    .profile-container hr {
+        margin-left: 20px;    /* Делаем разделительную линию шире на мобилке */
+        margin-right: 20px;
+    }
+
+    .my-custom-button {
+        padding: 10px 10px;   /* Немного уменьшаем внутренние отступы кнопок */
+    }
+
+    .my-custom-button img {
+        width: 40px;          /* Делаем иконки Яндекс, Звук, ТТ чуть компактнее */
+        height: 40px;
+    }
 }
