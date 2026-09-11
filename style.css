@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 
-    -webkit-user-select: none; /* Для Safari */
+    -webkit-user-select: none;
     user-select: none;
 }
 
@@ -41,9 +41,9 @@ body {
     width: 280px;
     height: 280px;
     object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.8);
-    margin-bottom: 20px;
+    border-radius: 25%;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.9);
+    margin-bottom: 25px;
 
     image-rendering: pixelated;
 }
@@ -87,11 +87,10 @@ body {
     gap: 10px;
   
     background-color: #000000;
-    color: #2c2e43;
     border: none;
-    padding: 12px 12px;
-    border-radius: 8px;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
+    padding: 15px 15px;
+    border-radius: 15px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.8);
 
     cursor: pointer;
     transition: all 0.1s ease;
@@ -106,9 +105,9 @@ body {
 }
 
 .my-custom-button:hover {
-    background-color: #2c2e43;
+    background-color: #181818;
     color: #ffffff;
-    transform: scale(1.03);
+    transform: scale(1.09);
 }
 
 /* FOR PHONES */
