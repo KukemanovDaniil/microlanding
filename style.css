@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: radial-gradient(circle, #4b4b4b, #252525, #000000);
+    background-image: radial-gradient(circle, #5c5c5c, #2b2b2b, #000000);
 }
 
 /* CONTAINER STYLE */
@@ -43,7 +43,6 @@ body {
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.8);
-    border: 10px solid #ffffff;
     margin-bottom: 20px;
 
     image-rendering: pixelated;
