@@ -40,7 +40,6 @@ body {
 .profile-avatar {
     width: 280px;
     height: 280px;
-    object-fit: cover;
     border-radius: 25%;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.9);
     margin-bottom: 25px;
