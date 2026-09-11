@@ -1,9 +1,10 @@
-/* BORDER BOX STYLE */
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    -webkit-user-select: none; /* Для Safari */
+    user-select: none;
 }
 
 @font-face {
@@ -20,7 +21,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-image: radial-gradient(circle, #4b4b4b, #252525, #000000);
 }
+
+/* CONTAINER STYLE */
 
 .profile-container {
     text-align: center;
@@ -40,6 +45,8 @@ body {
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.8);
     border: 10px solid #ffffff;
     margin-bottom: 20px;
+
+    image-rendering: pixelated;
 }
 
 .profile-container h1 {
@@ -59,6 +66,9 @@ body {
     font-size: 17px;
     color: #888888;
     font-weight: 400;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .profile-container hr {
@@ -106,25 +116,25 @@ body {
 
 @media (max-width: 600px) {
     .profile-container {
-        width: 92%;           /* Карточка займет почти всю ширину экрана телефона */
-        padding: 30px 20px;   /* Уменьшаем гигантские отступы до аккуратных */
+        width: 92%;
+        padding: 30px 20px;
         border-radius: 20px;
     }
 
     .profile-avatar {
-        width: 160px;         /* Уменьшаем аватарку, чтобы она смотрелась пропорционально */
+        width: 160px;
         height: 160px;
-        border: 6px solid #ffffff; /* Делаем белую рамку чуть тоньше */
+        border: 6px solid #ffffff;
         margin-bottom: 15px;
     }
 
     .profile-container h1 {
-        font-size: 26px;      /* Уменьшаем шрифт Notable, чтобы имя влезло в экран */
+        font-size: 26px;
         line-height: 1.2;
     }
 
     .profile-container h2 {
-        font-size: 16px;      /* Слегка уменьшаем подпись */
+        font-size: 16px;
         margin-top: 5px;
     }
 
@@ -134,16 +144,16 @@ body {
     }
 
     .profile-container hr {
-        margin-left: 20px;    /* Делаем разделительную линию шире на мобилке */
+        margin-left: 20px;
         margin-right: 20px;
     }
 
     .my-custom-button {
-        padding: 10px 10px;   /* Немного уменьшаем внутренние отступы кнопок */
+        padding: 10px 10px;
     }
 
     .my-custom-button img {
-        width: 40px;          /* Делаем иконки Яндекс, Звук, ТТ чуть компактнее */
+        width: 40px;
         height: 40px;
     }
 }
