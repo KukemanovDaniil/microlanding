@@ -154,13 +154,13 @@ body {
     }
 
     .my-custom-button {
-        padding: 7px 7px;
+        padding: 10px 10px;
         margin-left: 0px;
         margin-right: 0px;
     }
 
     .my-custom-button img {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 }
