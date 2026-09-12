@@ -152,6 +152,8 @@ body {
 
     .my-custom-button {
         padding: 10px 10px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .my-custom-button img {
