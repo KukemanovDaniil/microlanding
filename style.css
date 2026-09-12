@@ -91,19 +91,30 @@ body {
     transition: all 0.1s ease;
     text-decoration: none;
     outline: none;
+
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .my-custom-button img {
     width: 50px;
     height: 50px;
     object-fit: contain;
+    filter: grayscale(10%);
+    transition: all 0.1s ease;
 }
 
 .my-custom-button:hover {
     background-color: #181818;
     color: #ffffff;
     transform: scale(1.09);
+    filter: grayscale(0%);
 }
+
+.my-custom-button:hover img {
+    filter: grayscale(0%);
+}
+
 
 /* FOR PHONES */
 
